@@ -1,20 +1,29 @@
-import { TagIcon } from '@sanity/icons'
+import { TagIcon } from "@sanity/icons";
 
 export default {
-  name: 'category',
-  title: 'Category',
+  name: "category",
+  title: "Category",
   icon: TagIcon,
-  type: 'document',
+  type: "document",
   fields: [
     {
-      name: 'title',
-      title: 'Title',
-      type: 'string'
+      name: "title",
+      title: "Title",
+      type: "string",
     },
     {
-      name: 'description',
-      title: 'Description',
-      type: 'text'
-    }
-  ]
-}
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      options: {
+        source: "title",
+        maxLength: 96,
+      },
+    },
+    {
+      name: "description",
+      title: "Description",
+      type: "text",
+    },
+  ],
+};

@@ -1,7 +1,8 @@
-import '../styles/index.css'
+import "../styles/index.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return <h1>Hello World</h1>;
+  //return <Component {...pageProps} />
 }
 
-export default MyApp
+export default MyApp;
