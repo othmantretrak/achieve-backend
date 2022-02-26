@@ -9,7 +9,7 @@ export default {
     {
       name: "message",
       title: "Message",
-      type: "blockContent",
+      type: "text",
     },
     {
       name: "fullName",
