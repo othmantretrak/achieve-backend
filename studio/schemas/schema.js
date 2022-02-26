@@ -12,8 +12,9 @@ import author from "./author";
 import comment from "./comment";
 import testimonials from "./testimonials";
 import cases from "./cases";
-import socialMedia from "./socialMedia";
+//import socialMedia from "./siteInfo";
 import team from "./team";
+import siteInfo from "./siteInfo";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -27,7 +28,7 @@ export default createSchema({
     //post,
     testimonials,
     cases,
-    socialMedia,
+    siteInfo,
     //author,
     team,
     category,

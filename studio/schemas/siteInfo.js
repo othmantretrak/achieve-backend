@@ -1,32 +1,34 @@
 import { DocumentIcon } from "@sanity/icons";
 
 export default {
-  name: "team",
-  title: "Teams",
+  name: "siteInfo",
+  title: "Site Info",
   icon: DocumentIcon,
   type: "document",
   fields: [
     {
-      name: "name",
-      title: "Full Name",
-      type: "string",
-    },
-    {
-      name: "mainImage",
-      title: "Main image",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
-    {
-      name: "profession",
-      title: "Profession",
+      name: "title",
+      title: "WebeSite Info Title",
       type: "string",
     },
     {
       name: "email",
-      title: "Email",
+      title: "Email address",
+      type: "string",
+    },
+    {
+      name: "phone",
+      title: "Phone Number",
+      type: "string",
+    },
+    {
+      name: "address",
+      title: "Site  Address",
+      type: "string",
+    },
+    {
+      name: "facebook",
+      title: "facebook Url",
       type: "string",
     },
     {
@@ -36,13 +38,13 @@ export default {
     },
     {
       name: "instagram",
-      title: "instagram Url",
+      title: "instagram url",
       type: "string",
     },
   ],
   preview: {
     select: {
-      title: "name",
+      title: "title",
       author: "author.name",
       media: "mainImage",
     },
