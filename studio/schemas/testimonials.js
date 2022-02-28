@@ -16,6 +16,11 @@ export default {
       title: "Full Name",
       type: "string",
     },
+    {
+      name: "profession",
+      title: "Profession",
+      type: "string",
+    },
   ],
   preview: {
     select: {
