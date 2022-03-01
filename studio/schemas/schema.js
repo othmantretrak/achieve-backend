@@ -16,6 +16,8 @@ import cases from "./cases";
 import team from "./team";
 import siteInfo from "./siteInfo";
 import faq from "./faq";
+import logos from "./logos";
+import tarieven from "./tarieven";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -32,6 +34,8 @@ export default createSchema({
     siteInfo,
     //author,
     team,
+    tarieven,
+    logos,
     faq,
     category,
     // When added to this list, object types can be used as
