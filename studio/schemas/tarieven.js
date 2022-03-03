@@ -32,9 +32,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -43,9 +55,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -54,9 +78,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -65,9 +101,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -76,9 +124,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -87,9 +147,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     {
@@ -98,9 +170,21 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
-        { name: "seb", type: "boolean", title: "Enabled for Basic" },
-        { name: "ses", type: "boolean", title: "Enabled for Standard" },
-        { name: "sep", type: "boolean", title: "Enabled for Platinuim" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
       ],
     },
     /* {
@@ -109,9 +193,9 @@ export default {
       type: "object",
       fields: [
         { name: "service1", type: "string" },
-        { name: "s1eb", type: "boolean", title: "Enabled for Basic" },
-        { name: "s1es", type: "boolean", title: "Enabled for Standard" },
-        { name: "s1ep", type: "boolean", title: "Enabled for Platinuim" },
+        { name: "s1eb", type: "boolean", title: "text for Basic" },
+        { name: "s1es", type: "boolean", title: "text for Standard" },
+        { name: "s1ep", type: "boolean", title: "text for Premium" },
         { name: "service2", type: "string" },
         { name: "s2e", type: "boolean" },
         { name: "service3", type: "string" },
