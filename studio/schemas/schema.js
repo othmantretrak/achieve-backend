@@ -18,6 +18,7 @@ import siteInfo from "./siteInfo";
 import faq from "./faq";
 import logos from "./logos";
 import tarieven from "./tarieven";
+import service from "./service";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -35,6 +36,7 @@ export default createSchema({
     //author,
     team,
     tarieven,
+    service,
     logos,
     faq,
     category,

@@ -308,6 +308,190 @@ export default {
         },
       ],
     },
+    {
+      title: "Services 13",
+      name: "service13",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 14",
+      name: "service14",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 15",
+      name: "service15",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 16",
+      name: "service16",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 17",
+      name: "service17",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 18",
+      name: "service18",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 19",
+      name: "service19",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
+    {
+      title: "Services 20",
+      name: "service20",
+      type: "object",
+      fields: [
+        { name: "title", type: "string" },
+        {
+          name: "seb",
+          type: "string",
+          title: "text for Basic put (yes or no if you want icons)",
+        },
+        {
+          name: "ses",
+          type: "string",
+          title: "text for Standard put (yes or no if you want icons)",
+        },
+        {
+          name: "sep",
+          type: "string",
+          title: "text for Premium put (yes or no if you want icons)",
+        },
+      ],
+    },
     /* {
       title: "Services",
       name: "services",
