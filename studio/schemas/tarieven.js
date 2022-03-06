@@ -23,14 +23,71 @@ export default {
       type: "number",
     },
     {
+      name: "periodb",
+      title: "Maandelijks or Eenmalig for Basic",
+      type: "object",
+      fields: [
+        {
+          name: "maandelijks",
+          title: "Maandelijks",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+        {
+          name: "eenmalig",
+          title: "Eenmalig",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+      ],
+    },
+    {
       name: "s_price",
       title: "Standard Price",
       type: "number",
     },
     {
+      name: "periods",
+      title: "Maandelijks or Eenmalig for Standard",
+      type: "object",
+      fields: [
+        {
+          name: "maandelijks",
+          title: "Maandelijks",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+        {
+          name: "eenmalig",
+          title: "Eenmalig",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+      ],
+    },
+    {
       name: "p_price",
       title: "Premium Price",
       type: "number",
+    },
+    {
+      name: "periodp",
+      title: "Maandelijks or Eenmalig for Premium",
+      type: "object",
+      fields: [
+        {
+          name: "maandelijks",
+          title: "Maandelijks",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+        {
+          name: "eenmalig",
+          title: "Eenmalig",
+          type: "boolean",
+          options: { layout: "checkbox" },
+        },
+      ],
     },
     {
       title: "Services 1",
