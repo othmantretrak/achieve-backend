@@ -19,6 +19,8 @@ import faq from "./faq";
 import logos from "./logos";
 import tarieven from "./tarieven";
 import service from "./service";
+import terms from "./terms";
+import privacy from "./privacy";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -37,6 +39,8 @@ export default createSchema({
     team,
     tarieven,
     service,
+    terms,
+    privacy,
     logos,
     faq,
     category,
