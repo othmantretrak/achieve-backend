@@ -16,6 +16,12 @@ export default {
       title: "Answer",
       type: "string",
     },
+    {
+      name: "categories",
+      title: "Categories",
+      type: "array",
+      of: [{ type: "reference", to: { type: "faqcategory" } }],
+    },
   ],
   preview: {
     select: {
