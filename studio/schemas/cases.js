@@ -23,7 +23,7 @@ export default {
 
     {
       name: "mainImage",
-      title: "Main image",
+      title: "Main image (1000px*600px)",
       type: "image",
       options: {
         hotspot: true,
