@@ -18,8 +18,13 @@ export default {
       type: "string",
     },
     {
+      name: "b_name",
+      title: "Services plan 1 name",
+      type: "string",
+    },
+    {
       name: "b_price",
-      title: "Basic Price",
+      title: "Plan 1 Price",
       type: "number",
     },
     {
@@ -42,8 +47,13 @@ export default {
       ],
     },
     {
+      name: "s_name",
+      title: "Services plan 2 name",
+      type: "string",
+    },
+    {
       name: "s_price",
-      title: "Standard Price",
+      title: "Plan 2 Price",
       type: "number",
     },
     {
@@ -66,8 +76,13 @@ export default {
       ],
     },
     {
+      name: "p_name",
+      title: "Services plan 3 name",
+      type: "string",
+    },
+    {
       name: "p_price",
-      title: "Premium Price",
+      title: "Plan 3 Price",
       type: "number",
     },
     {
@@ -95,6 +110,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -118,6 +134,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -141,6 +158,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -164,6 +182,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -187,6 +206,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -210,6 +230,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -233,6 +254,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -256,6 +278,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -279,6 +302,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -302,6 +326,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -325,6 +350,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -348,6 +374,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -371,6 +398,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -394,6 +422,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -417,6 +446,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -440,6 +470,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -463,6 +494,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -486,6 +518,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -509,6 +542,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
@@ -532,6 +566,7 @@ export default {
       type: "object",
       fields: [
         { name: "title", type: "string" },
+        { name: "info", type: "string", title: "Services info" },
         {
           name: "seb",
           type: "string",
