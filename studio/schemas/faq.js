@@ -15,12 +15,12 @@ export default {
     {
       name: "question",
       title: "Question",
-      type: "string",
+      type: "text",
     },
     {
       name: "answer",
       title: "Answer",
-      type: "string",
+      type: "blockContent",
     },
     {
       name: "categories",

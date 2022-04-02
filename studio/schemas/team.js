@@ -13,7 +13,7 @@ export default {
     },
     {
       name: "mainImage",
-      title: "Main image",
+      title: "Membre Avatar (250px*250)",
       type: "image",
       options: {
         hotspot: true,

@@ -8,7 +8,7 @@ export default {
   fields: [
     {
       name: "imagesGallery",
-      title: "Images gallery",
+      title: "Images gallery (150px*50px)",
       type: "array",
       of: [{ type: "image" }],
     },
