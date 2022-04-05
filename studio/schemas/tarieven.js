@@ -25,9 +25,9 @@ export default {
     {
       name: "b_price",
       title: "Plan 1 Price",
-      type: "number",
+      type: "string",
     },
-    {
+    /* {
       name: "periodb",
       title: "Maandelijks or Eenmalig for Basic",
       type: "object",
@@ -45,7 +45,7 @@ export default {
           options: { layout: "checkbox" },
         },
       ],
-    },
+    }, */
     {
       name: "s_name",
       title: "Services plan 2 name",
@@ -54,9 +54,9 @@ export default {
     {
       name: "s_price",
       title: "Plan 2 Price",
-      type: "number",
+      type: "string",
     },
-    {
+    /* {
       name: "periods",
       title: "Maandelijks or Eenmalig for Standard",
       type: "object",
@@ -74,7 +74,7 @@ export default {
           options: { layout: "checkbox" },
         },
       ],
-    },
+    }, */
     {
       name: "p_name",
       title: "Services plan 3 name",
@@ -83,9 +83,9 @@ export default {
     {
       name: "p_price",
       title: "Plan 3 Price",
-      type: "number",
+      type: "string",
     },
-    {
+    /* {
       name: "periodp",
       title: "Maandelijks or Eenmalig for Premium",
       type: "object",
@@ -103,7 +103,7 @@ export default {
           options: { layout: "checkbox" },
         },
       ],
-    },
+    }, */
     {
       title: "Services 1",
       name: "service1",
