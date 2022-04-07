@@ -19,7 +19,7 @@ export default {
     },
     {
       name: "mainImage",
-      title: "Service image",
+      title: "Service image 90px*90px",
       type: "image",
       options: {
         hotspot: true,
