@@ -12,6 +12,22 @@ export default {
       type: "string",
     },
     {
+      name: "blackLogo",
+      title: "Black Logo image (width 380px)",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: "whiteLogo",
+      title: "White Logo image (width 380px)",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: "email",
       title: "Email address",
       type: "string",

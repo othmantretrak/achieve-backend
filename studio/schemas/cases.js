@@ -30,6 +30,11 @@ export default {
       },
     },
     {
+      name: "youtube",
+      title: "Youtube Link",
+      type: "string",
+    },
+    {
       name: "categories",
       title: "Categories",
       type: "array",
