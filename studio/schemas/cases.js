@@ -20,6 +20,11 @@ export default {
         maxLength: 96,
       },
     },
+    {
+      name: "published",
+      title: "Published",
+      type: "boolean",
+    },
 
     {
       name: "mainImage",
@@ -31,8 +36,9 @@ export default {
     },
     {
       name: "youtube",
-      title: "Youtube Link",
-      type: "string",
+      title: "Youtube Links",
+      description: "separated by comma (,)",
+      type: "text",
     },
     {
       name: "categories",
