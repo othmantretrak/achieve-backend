@@ -21,6 +21,32 @@ export default {
       },
     },
     {
+      name: "aboutCase",
+      title: "About this case",
+      description: "what we did for this specific client",
+      type: "text",
+    },
+    {
+      name: "GeleverdeDiensten",
+      title: "Geleverde diensten",
+      description: "separated by comma (,)",
+      type: "text",
+    },
+    {
+      name: "caseLogo",
+      title: "case's Logo (300px*300px)",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
+      name: "WhoClient",
+      title: "Who is the client?",
+      description: "Who is the client?",
+      type: "text",
+    },
+    {
       name: "published",
       title: "Published",
       type: "boolean",
@@ -39,6 +65,32 @@ export default {
       title: "Youtube Links",
       description: "separated by comma (,)",
       type: "text",
+    },
+    {
+      title: "FAQ ",
+      name: "faq",
+      type: "object",
+      fields: [
+        { name: "klantvraag", type: "text", title: "De klantvraag" },
+        { name: "doelstelling", type: "text", title: "De doelstelling" },
+        { name: "strategie", type: "text", title: "Onze strategie" },
+      ],
+    },
+    {
+      title: "testimonial",
+      name: "testimonial",
+      type: "object",
+      fields: [
+        { name: "text", type: "text", title: "testimonial text" },
+        {
+          name: "testimonialImg",
+          title: "testimonial image (1000px*600px)",
+          type: "image",
+          options: {
+            hotspot: true,
+          },
+        },
+      ],
     },
     {
       name: "categories",
