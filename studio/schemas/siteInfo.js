@@ -13,7 +13,7 @@ export default {
     },
     {
       name: "blackLogo",
-      title: "Black Logo image (width 380px)",
+      title: "Header Logo image (Black width 380px)",
       type: "image",
       options: {
         hotspot: true,
@@ -21,7 +21,7 @@ export default {
     },
     {
       name: "whiteLogo",
-      title: "White Logo image (width 380px)",
+      title: "Footer Logo image (White width 380px)",
       type: "image",
       options: {
         hotspot: true,
