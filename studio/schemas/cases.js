@@ -71,9 +71,13 @@ export default {
       name: "faq",
       type: "object",
       fields: [
-        { name: "klantvraag", type: "text", title: "De klantvraag" },
+        {
+          name: "aklantvraag",
+          type: "text",
+          title: "De klantvraag teeeeeeeeeeest",
+        },
+        { name: "bstrategie", type: "text", title: "Onze strategie" },
         { name: "doelstelling", type: "text", title: "De doelstelling" },
-        { name: "strategie", type: "text", title: "Onze strategie" },
       ],
     },
     {
