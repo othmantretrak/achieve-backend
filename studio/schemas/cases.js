@@ -85,6 +85,7 @@ export default {
       name: "testimonial",
       type: "object",
       fields: [
+        { name: "testititle", type: "string", title: "testimonial title" },
         { name: "text", type: "text", title: "testimonial text" },
         {
           name: "testimonialImg",
