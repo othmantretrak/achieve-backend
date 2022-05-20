@@ -67,14 +67,14 @@ export default {
       type: "text",
     },
     {
-      title: "FAQ ",
+      title: "Onze aanpak ",
       name: "faq",
       type: "object",
       fields: [
         {
           name: "aklantvraag",
           type: "text",
-          title: "De klantvraag teeeeeeeeeeest",
+          title: "De klantvraag",
         },
         { name: "bstrategie", type: "text", title: "Onze strategie" },
         { name: "doelstelling", type: "text", title: "De doelstelling" },
