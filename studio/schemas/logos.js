@@ -2,7 +2,7 @@ import { DocumentIcon } from "@sanity/icons";
 
 export default {
   name: "companies",
-  title: "Companies",
+  title: "Bedrijven",
   icon: DocumentIcon,
   type: "document",
   fields: [

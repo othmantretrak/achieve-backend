@@ -2,7 +2,7 @@ import { DocumentIcon } from "@sanity/icons";
 
 export default {
   name: "service",
-  title: "Service",
+  title: "Diensten",
   icon: DocumentIcon,
   type: "document",
   fields: [

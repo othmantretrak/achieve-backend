@@ -12,6 +12,11 @@ export default {
       type: "string",
     },
     {
+      name: "published",
+      title: "Published",
+      type: "boolean",
+    },
+    {
       name: "slug",
       title: "Slug",
       type: "slug",
@@ -33,6 +38,14 @@ export default {
       type: "text",
     },
     {
+      name: "mainImage",
+      title: "Main image (1000px*600px)",
+      type: "image",
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: "caseLogo",
       title: "case's Logo (300px*300px)",
       type: "image",
@@ -46,20 +59,7 @@ export default {
       description: "Who is the client?",
       type: "text",
     },
-    {
-      name: "published",
-      title: "Published",
-      type: "boolean",
-    },
 
-    {
-      name: "mainImage",
-      title: "Main image (1000px*600px)",
-      type: "image",
-      options: {
-        hotspot: true,
-      },
-    },
     {
       name: "youtube",
       title: "Youtube Links",

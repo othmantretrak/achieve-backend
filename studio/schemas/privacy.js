@@ -2,7 +2,7 @@ import { DocumentIcon } from "@sanity/icons";
 
 export default {
   name: "privacy",
-  title: "Privacy & Policy",
+  title: "Privacy Policy",
   icon: DocumentIcon,
   type: "document",
   fields: [

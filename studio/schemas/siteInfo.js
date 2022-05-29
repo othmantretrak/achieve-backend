@@ -57,6 +57,11 @@ export default {
       title: "instagram url",
       type: "string",
     },
+    {
+      name: "linkedin",
+      title: "Linkedin url",
+      type: "string",
+    },
   ],
   preview: {
     select: {
