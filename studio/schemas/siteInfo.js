@@ -12,6 +12,11 @@ export default {
       type: "string",
     },
     {
+      name: "gta",
+      title: "Google Analytics ID",
+      type: "string",
+    },
+    {
       name: "blackLogo",
       title: "Header Logo image (Black width 380px)",
       type: "image",
