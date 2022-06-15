@@ -32,6 +32,11 @@ export default {
       type: "text",
     },
     {
+      name: "caseWebsite",
+      title: "Case website",
+      type: "string",
+    },
+    {
       name: "GeleverdeDiensten",
       title: "Geleverde diensten",
       description: "separated by comma (,)",
