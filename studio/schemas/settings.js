@@ -20,6 +20,14 @@ export default {
       description: "choose color by clicking on the circle",
     },
     {
+      name: "favoriteColor",
+      title: "Btn hover Color",
+      type: "color",
+      options: {
+        disableAlpha: true,
+      },
+    },
+    {
       name: "FooterIcons",
       title: "Footer icons",
       type: "object",
