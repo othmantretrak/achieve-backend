@@ -5,6 +5,7 @@ export default {
   title: "FAQ Category",
   icon: TagIcon,
   type: "document",
+  hidden: true,
   fields: [
     {
       name: "order",

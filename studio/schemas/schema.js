@@ -9,7 +9,7 @@ import blockContent from "./blockContent";
 import category from "./category";
 import post from "./post";
 import author from "./author";
-import comment from "./comment";
+import overOns from "./overOns";
 import testimonials from "./testimonials";
 import cases from "./cases";
 //import socialMedia from "./siteInfo";
@@ -17,6 +17,7 @@ import team from "./team";
 import siteInfo from "./siteInfo";
 import faq from "./faq";
 import logos from "./logos";
+import settings from "./settings";
 import tarieven from "./tarieven";
 import service from "./service";
 import terms from "./terms";
@@ -43,9 +44,11 @@ export default createSchema({
     logos,
     terms,
     privacy,
+    overOns,
     faq,
     category,
     siteInfo,
+    settings,
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
