@@ -13,15 +13,11 @@ export default {
       hidden: true,
       initialValue: "Site Settings",
     },
+
     {
       name: "btnhovercolor",
       title: "Btn hover Color",
-      type: "colorPicker",
-      description: "choose color by clicking on the circle",
-    },
-    {
-      name: "favoriteColor",
-      title: "Btn hover Color",
+      description: "choose color for btn hover",
       type: "color",
       options: {
         disableAlpha: true,
